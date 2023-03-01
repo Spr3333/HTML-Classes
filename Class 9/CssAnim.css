@@ -1,0 +1,15 @@
+div{
+  width: 100px;
+  height: 100Px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {background-color: black:}
+  25% {background-color: purple;}
+  50% {background-color: Magenta;}
+  100%{background-color: pink;}
+}

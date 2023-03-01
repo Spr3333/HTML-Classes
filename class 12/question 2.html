@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+    var totalItems = window.prompt("Enter The total amount Of Items");
+    var quantity;
+    var price;
+    var temp;
+    var totalPrice = 0;
+    for(var i = 0; i< totalItems; i++)
+    {
+       quantity = window.prompt("Enter The Quantity of the item");
+       price = window.prompt("Enter The price of the First Item");
+       temp = quantity * price;
+       totalPrice = totalPrice + temp;
+    }
+    document.write("Total Price is " + totalPrice);
+    </script>
+  </body>
+</html>

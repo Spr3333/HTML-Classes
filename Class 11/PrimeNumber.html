@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p><b>Prime Numbers</b></p>
+
+<script>
+document.write("test");
+</script>
+
+    <script>
+      var prime = window.prompt("Enter a prime number");
+      var temp;
+      var n;
+      document.write("test");
+
+      prime = temp;
+      if(prime == 0 && prime == 1)
+      {
+        document.write("The number is Prime Number");
+      }
+      for(var i = 2 ; i< 10; i++)
+      {
+        temp = temp % i;
+        if(temp == 0)
+        {
+          n++;
+        }
+      }
+
+      if(n < 2)
+      {
+        document .write("The Number is Not a Prime Number");
+      }
+      else {
+        document .write("The Number is a Prime Number");
+
+      }
+
+    </script>
+  </body>
+</html>

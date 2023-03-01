@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p><b>Fibonaci Series</b></p>
+
+    <script type="text/javascript">
+      var ok = window.prompt("Enter the Number Of fibonacci Series You Want");
+      alert("The Number enterd Is " + ok);
+      var firstNumber = 0;
+      var secondNumber = 1;
+
+
+      document.write(firstNumber + "</br>");
+      document.write(secondNumber + "</br>");
+      var thirdNumber;
+      for(var i = 2 ; i <= ok; i++)
+      {
+        thirdNumber = firstNumber + secondNumber;
+        document.write("</br>"+thirdNumber);
+        firstNumber = secondNumber;
+        secondNumber = thirdNumber;
+
+      }
+// 0 1 1 2 3 5 8 13 21 34
+    </script>
+  </body>
+</html>

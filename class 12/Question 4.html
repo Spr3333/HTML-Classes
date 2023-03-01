@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var roomRented = window.prompt("Enter The Number Of Rooms");
+      var cost = 0;
+      var temp = 0;
+      var totalRev = 0;
+      var revenue = 0;
+
+      for(var i =0; i < roomRented; i++)
+      {
+        cost = window.prompt("Enter The Cost Of The Room");
+        temp = temp + cost;
+        totalRev += temp
+      }
+
+      document.write("Total Revenue is" + temp);
+
+    </script>
+  </body>
+</html>
