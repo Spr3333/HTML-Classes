@@ -1,0 +1,46 @@
+<html>
+<body>
+    <script>
+
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        
+        var a = window.prompt("Enter the number u want to find");
+        var b;
+        for (let x in numbers) {
+            txt += numbers[x];
+            document.write(txt);
+            document.write("<br/>")
+
+            if (a == x) {
+                b = true;
+            }
+            else {
+                b = false;
+
+            }
+            
+        }
+
+        if (b == true) {
+            document.write("The Number" + a + "Is Present");
+
+        }
+        else {
+            document.write("The Number" + a + "Is Not Present");
+
+        }
+
+        document.write("<br/>");
+        var aProperty;
+        document.write("Navigator object Properties <br />");
+        for (aProperty in navigator) {
+            document.write(aProperty);
+            document.write("<br />");
+        }
+    </script>
+
+</body>
+
+</html>
