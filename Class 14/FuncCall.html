@@ -1,0 +1,25 @@
+<html>
+<head>
+        <title>
+            Create User - Defined Object in Javascript
+        </title>
+</head>
+
+<body>
+    <script>
+        function Bike(Company, Model, Year) {
+            this.Company = Company;
+            this.Model = Model;
+            this.Year = Year;
+        }
+
+        var myBike = new Bike("KTM", "Duke", 2010);
+        var mySecondBike = new Bike("Royal Enfield", "Classic", 2015);
+
+        document.write(myBike.Company + "<br />" + myBike.Model + "<br/>" + myBike.Year + "<br/>");
+        document.write(mySecondBike.Company + "<br />" + mySecondBike.Model + "<br/>" + mySecondBike.Year + "<br/>");
+        console.log(1);
+    </script>
+</body>
+
+</html>
